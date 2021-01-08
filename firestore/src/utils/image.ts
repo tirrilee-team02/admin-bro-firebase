@@ -22,7 +22,8 @@ export async function uploadAndReplaceImageData(
 
       for (let i = 0; i < images.length; i++) {
         const index = result.search(imgSignature)
-        if (index !== -1) {
+        const srcIndex = images[i].getAttribute('src').search(imgSignature);
+        if (srcIndex !== -1) {
           const timeText = moment().format('HH_mm_ss')
           const randomString = Math.random().toString(36).substring(5)
           // 8자리 랜덤 문자
