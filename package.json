@@ -1,6 +1,6 @@
 {
   "name": "@tirrilee/admin-bro-firebase",
-  "version": "1.0.40",
+  "version": "1.0.42",
   "description": "Firebase adapter for admin-bro",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -29,7 +29,7 @@
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-cypress": "^2.10.3",
     "eslint-plugin-prettier": "^3.1.4",
-    "firebase": "^7.17.2",
+    "firebase": "^8.10.1",
     "firebase-admin": "^9.0.0",
     "firebase-functions": "^3.9.0",
     "jest": "^26.2.2",
@@ -40,7 +40,7 @@
     "wait-on": "^5.1.0"
   },
   "peerDependencies": {
-    "firebase": "^7.x",
+    "firebase": "^8.x",
     "firebase-admin": "^9.x",
     "firebase-functions": "^3.x"
   },
