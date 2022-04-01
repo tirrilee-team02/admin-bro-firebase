@@ -54,7 +54,7 @@
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.19",
     "moment": "^2.29.1",
-    "path-to-regexp": "^6.1.0",
+    "path-to-regexp": "^6.2.0",
     "stream": "^0.0.2"
   },
   "resolutions": {
